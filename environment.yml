@@ -8,3 +8,4 @@ dependencies:
       # 这里写你项目需要的包，比如：
       - requests
       - pandas
+      - pytest
