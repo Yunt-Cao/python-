@@ -1,0 +1,10 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - python=3.10  # 对应你工作流里的Python版本
+  - pip
+  - pip:
+      # 这里写你项目需要的包，比如：
+      - requests
+      - pandas
